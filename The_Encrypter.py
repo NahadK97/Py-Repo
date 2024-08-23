@@ -16,13 +16,11 @@ if choice == "1":  # For Caeser Cipher
         f.write(c_decrypt(message, sh))
 
 elif choice == "2":  # For Morse Code
-    print("Not 100% efficient use an online translator")
-    '''
+    #print("Not 100% efficient use an online translator")
     if function == "E":
         f.write(m_encrypt(message))
     elif function == "D":
         f.write(m_decrypt(message))
-    '''
 
 elif choice == "3":  # For Jumbled
     if function == "E":
