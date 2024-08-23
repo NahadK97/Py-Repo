@@ -2,7 +2,7 @@ from ciphers.cipher import *
 # abcdefghijklmnopqrstuvwxyz 1234567890 !@#$%^&*()
 
 f = open("codes.txt", "w")
-g = open("Crisis Updates", "r")
+g = open("Crisis_Updates", "r")
 message = g.read()  # Message to be encrypted
 print("1.Caeser 2.Morse 3.Jumbled 4.Reverse 5. Alpha-Numeric")
 choice = input("Enter choice: ")  # Type of encryption
